@@ -13,6 +13,7 @@ click==8.1.7
 cryptography==43.0.1
 cssselect2==0.7.0
 django-widget-tweaks==1.5.0
+django==5.1.1
 frozenlist==1.4.1
 html5lib==1.1
 idna==3.10
