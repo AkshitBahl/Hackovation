@@ -10,10 +10,11 @@ auth_token = config('AUTH_TOKEN')
 client = Client(account_sid, auth_token) 
 
 def send_message(mesg, num):
-    message = client.messages.create( 
-                                  from_='whatsapp:+14155238886',
-                                  body= mesg,  
-                                  to= f"whatsapp:{num}"
-                              ) 
+    message = client.messages.create(
+                from='+12088584956',
+                body='dsfasfaadfafasdfadf',
+                to='+919354416441'
+              )
      
     print(message.sid)
+
