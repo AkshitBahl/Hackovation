@@ -15,7 +15,7 @@ from xhtml2pdf import pisa
 from django.template.loader import get_template
 from django.template import Context
 
-from basic_app.whatsapp import send_message
+#from basic_app.whatsapp import send_message
 from basic_app.diet_recommender import *
 from basic_app import models
 from basic_app.models import * 
@@ -307,7 +307,7 @@ def prescription(request,pk):
 		message_to_send = message_to_send.replace(',','\n')
 
 		print(appDetails.phone_number)
-		print(send_message(f'Your prescription of medicines is as follows:\n{message_to_send}', appDetails.phone_number))
+		#print(send_message(f'Your prescription of medicines is as follows:\n{message_to_send}', appDetails.phone_number))
 
 		return render(request,'basic_app/finalprescription.html',context)
 
