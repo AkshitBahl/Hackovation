@@ -1,6 +1,49 @@
-# [Patient Registration System]
+# Health Management System
 
-(Add a brief, 1-2 sentence description of what this project does. For example: "A simple web application built with Django for managing new patient registrations.")
+HealthBuddy is a comprehensive healthcare application that makes online medical services seamless, accurate, fast and reliable. HealthBuddy aims at creating an ecosystem which makes healthcare accessible to everyone.
+
+## Technologies Used
+
+HealthBuddy is built on a robust technology stack designed for scalability and user-friendliness. This includes:
+
+### Frontend:
+
+1.HTML
+2.CSS
+3.JS
+
+### Backend
+
+1. Django
+
+### Database
+
+1. SQLite3
+
+### Machine Learning
+
+1. KMeans
+2. RandomForestClassifier
+3. Light GBM
+4. DecisionTreesClassifier
+
+
+## Useful Features:
+
+1. AI-Powered Diagnosis: HealthBuddy leverages machine learning algorithms to analyze patient data and provide accurate diagnoses.
+2. Personalized Prescription plans: Based on individual health profiles, the app generates personalized treatment plans.
+3. Remote Appointment booking: The app automates appointment booking for patients to their nearby doctors.
+4. Medical Chat-bot: LLM Bot-press chatbot to assist patients
+   
+
+### HealthBuddy stands out by combining three essential health tools into one seamless platform: 
+
+1. a personalized Diet Planner,
+2. an intelligent Insurance Predictor, and
+3. an advanced Disease Predictor. 
+
+This integration provides users with a comprehensive, end-to-end healthcare solution that goes beyond typical medical services.
+
 
 ## Prerequisites
 
